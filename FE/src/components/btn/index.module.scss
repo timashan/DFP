@@ -1,0 +1,26 @@
+.container {
+  border: 0;
+
+  cursor: pointer;
+
+  &.toolbar {
+    background: #000;
+    color: #eee;
+    padding: 0.5rem 2rem;
+  }
+
+  &.nodetoolbar {
+    background: #111;
+    border: 1px solid #eee;
+    padding: 0.8rem;
+    color: #eee;
+    border-radius: 50%;
+    display: flex;
+    font-size: 1.2rem;
+
+    &:hover {
+      background: #eee;
+      color: #111;
+    }
+  }
+}
